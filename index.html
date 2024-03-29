@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>黃郁婷的作品集</title>
+    <link rel="stylesheet" href="css.css" />
+    <script src="js.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  </head>
+
+  <body>
+   
+    <header>
+      <section>
+        <a
+          href="https://www.linkedin.com/in/sutharmayur"
+          id="logo"
+          target="_blank"
+          >HOME</a>
+        <label for="toggle-1" class="toggle-menu">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </label>
+
+        <input type="checkbox" id="toggle-1" />
+        <nav>
+          <ul>
+            <li>
+              <a href="#logo">About</a>
+            </li>
+            <li>
+              <a href="#about">Intern</a>
+            </li>
+            <li>
+              <a href="#portfolio"
+                >Awards</a
+              >
+            </li>
+            <li>
+              <a href="#services">Clubs</a>
+            </li>
+            <li>
+              <a href="#gallery">Other</a>
+            </li>
+            <!-- <li>
+              <a href="#contact">Contact</a>
+            </li> -->
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+<!-- 以下是天空山幻燈片的內容 -->
+    <div class="scrollDist"></div>
+    <div class="pain">
+      <svg viewBox="0 0 1200 1000" xmlns="http://www.w3.org/2000/svg">
+        <mask id="m">
+          <g class="cloud1">
+            <rect fill="#fff" width="100%" height="801" y="799" />
+            <image
+              href=""
+              width="1200"
+              height="800"
+            />
+          </g>
+        </mask>
+
+        <!-- <image
+          class="sky"
+          xlink:href=""
+          width="1200"
+          height="590"
+        />
+        <image
+          class="mountBg"
+          xlink:href=""
+          width="1200"
+          height="800"
+        />
+        <image
+          class="mountMg"
+          href="img/content.png"
+          width="1200"
+          height="800"
+        /> -->
+        <image
+          class="cloud2"
+          href="img/name.png"
+          width="1200"
+          height="800"
+        />
+        <image
+          class="mountFg"
+          href="img/color.png"
+          width="1200"
+          height="800"
+        />
+        <!-- <image
+          class="cloud1"
+          href="img/name.png"
+          width="1200"
+          height="800"
+        /> -->
+        <image
+          class="cloud3"
+          href="img/color2.png"
+          width="1200"
+          height="800"
+        />
+
+        
+        <!-- <text fill="#fff" x="350" y="200">EXPLORE</text> -->
+        <!-- <polyline
+          class="arrow"
+          fill="#fff"
+          points="599,250 599,289 590,279 590,282 600,292 610,282 610,279 601,289 601,250"
+        /> -->
+
+        <g mask="url(#m)">
+          <rect fill="#fff" width="100%" height="100%" />
+          <text x="350" y="100" fill="#162a43">FURTHER</text>
+        </g>
+
+
+        <rect
+          id="arrowBtn"
+          width="100"
+          height="100"
+          opacity="0"
+          x="550"
+          y="220"
+          style="cursor: pointer"
+        />
+      </svg>
+      <!-- button按鈕在這邊 -->
+      <!-- <button style="position: absolute; bottom: 175px; right: 164px;width: 200px;height: 60px;border-radius: 12px;font-size: 32px;color: #ffffff;background-color: #0E2992;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bold;">learn more</button> -->
+    </div>
+
+    <!-- 以下是卡片的內容 -->
+    <div class="container">
+      <!-- 卡片一  -->
+      <div class="card">
+        <h2>實習經歷</h2>
+        <!-- <i class="fas fa-arrow-right"></i>
+        <p>internship</p> -->
+        <div class="pic"></div>
+
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-github"></i>
+        </div>
+        <a href="club-main.html"><button></button></a> 
+      </div>
+      <!-- 卡片二 -->
+      <div class="card card2">
+        <h2>比賽經歷</h2>
+        <i class="fas fa-arrow-right"></i>
+        <!-- <p>Awards</p> -->
+        <div class="pic"></div>
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-github"></i>
+        </div>
+        <button>
+        </button>
+      </div>
+      <!-- 卡片三 -->
+      <div class="card card3">
+        <h2>社團經歷</h2>
+        <i class="fas fa-arrow-right"></i>
+        <!-- <p>School Clubs</p> -->
+        <div class="pic"></div>
+        
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-github"></i>
+        </div>
+        <a href="club-main.html"><button></button></a>  
+      </div>
+      <!-- 卡片四 -->
+      <div class="card">
+        <h2>其他作品</h2>
+        <i class="fas fa-arrow-right"></i>
+        <!-- <p>Other project</p> -->
+        <div class="pic"></div>
+       
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-github"></i>
+        </div>
+       <button></button>
+        
+      </div>
+    </div>
+    
+    <a href="https://dribbble.com/YancyMin" class="dr-url" target="_blank"><img class="dr" src="https://cdn.dribbble.com/assets/logo-footer-hd-a05db77841b4b27c0bf23ec1378e97c988190dfe7d26e32e1faea7269f9e001b.png" alt=""></a>
+
+    <footer>
+      <ul class="social">
+        <li>
+          <a href="https://twitter.com/mayursuthar2693" target="_blank"
+            ><i class="icon-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/mayursuthar2693" target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sutharmayur" target="_blank"
+            ><i class="icon-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.pinterest.com/MayurSuthar2693/" target="_blank"
+            ><i class="icon-pinterest"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://plus.google.com/109916819421919014146/posts"
+            target="_blank"
+            ><i class="icon-google-plus"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/mayursuthar2693/" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
